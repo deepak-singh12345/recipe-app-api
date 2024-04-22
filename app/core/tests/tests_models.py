@@ -2,10 +2,11 @@
 Tests for models
 """
 
-from contextlib import AbstractContextManager
-from typing import Any
+# from contextlib import AbstractContextManager
+# from typing import Any
 from django.test import TestCase
 from django.contrib.auth import get_user_model
+
 
 class ModelTests(TestCase):
     """TEst models"""
